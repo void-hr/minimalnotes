@@ -1,0 +1,39 @@
+
+.b{
+    position: relative;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DAE5F5;
+    height: 100vh;
+   }
+
+
+
+ .p_content{
+    width: 50%;
+    font-size: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   }
+  
+   .p_content > p{
+    margin: 0;
+    padding: 0;
+    
+   }
+  
+  
+   .encrypted_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    position: absolute;
+    bottom: 1rem;
+   }
