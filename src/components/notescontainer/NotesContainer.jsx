@@ -3,7 +3,7 @@ import ibg from '../../assets/background.png'
 import lock from '../../assets/lock.svg'
 const NotesContainer = () => {
   return (
-    <div className='b'>
+    <div className='right_container'>
 
     <div className='p_content'>
     <img src={ibg} alt="banner"  />
